@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Student Registration</h1>
+        <p class="subtitle">Please fill in your details below</p>
+
+        <form>
+
+            <label>Full Name</label>
+            <input type="text" placeholder="Enter your full name" required>
+
+            <label>Email Address</label>
+            <input type="email" placeholder="Enter your email" required>
+
+            <label>Phone Number</label>
+            <input type="tel" placeholder="Enter your phone number" required>
+
+            <label>Date of Birth</label>
+            <input type="date" required>
+
+            <label>Gender</label>
+            <select required>
+                <option value="">Select Gender</option>
+                <option>Female</option>
+                <option>Male</option>
+                <option>Other</option>
+            </select>
+
+            <label>Course</label>
+            <select required>
+                <option value="">Select Course</option>
+                <option>MCA</option>
+                <option>MBA</option>
+                <option>BCA</option>
+                <option>B.Tech</option>
+                <option>M.Sc Computer Science</option>
+            </select>
+
+            <label>Address</label>
+            <textarea placeholder="Enter your address" rows="4" required></textarea>
+
+            <div class="terms">
+                <input type="checkbox" required>
+                <span>I agree to the terms and conditions</span>
+            </div>
+
+            <button type="submit">Register Now</button>
+
+        </form>
+
+    </div>
+
+</body>
+</html>

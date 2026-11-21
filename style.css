@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #FFE0D2, #FFF1E8, #FFD6C5);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px 15px;
+}
+
+.container {
+    background: #FFFFFF;
+    width: 100%;
+    max-width: 520px;
+    padding: 40px;
+    border-radius: 22px;
+    box-shadow: 0 15px 45px rgba(190, 105, 75, 0.15);
+}
+
+h1 {
+    text-align: center;
+    color: #493B36;
+    font-size: 27px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #A18C82;
+    font-size: 13px;
+    margin-bottom: 28px;
+}
+
+label {
+    display: block;
+    color: #59443C;
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 17px;
+    margin-bottom: 8px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #F1D8CD;
+    border-radius: 10px;
+    background: #FFFAF6;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    color: #493B36;
+    transition: 0.3s;
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    border-color: #F47C65;
+    box-shadow: 0 0 7px rgba(244, 124, 101, 0.2);
+}
+
+textarea {
+    resize: vertical;
+}
+
+.terms {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    color: #806D65;
+    font-size: 12px;
+}
+
+.terms input {
+    width: auto;
+    accent-color: #F47C65;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 25px;
+    background: linear-gradient(135deg, #FFAB91, #F47C65);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #F47C65, #E96B55);
+    transform: translateY(-2px);
+    box-shadow: 0 7px 15px rgba(244, 124, 101, 0.25);
+}
+
+@media (max-width: 550px) {
+    .container {
+        padding: 25px 20px;
+    }
+
+    h1 {
+        font-size: 23px;
+    }
+}
